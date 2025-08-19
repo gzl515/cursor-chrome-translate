@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "翻译总结助手",
+  "version": "1.0.0",
+  "description": "基于Kimi API的网页翻译和总结工具",
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.moonshot.cn/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "翻译总结助手"
+  }
+} 
