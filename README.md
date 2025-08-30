@@ -2,6 +2,11 @@
 
 基于Kimi API的Chrome浏览器扩展，提供网页内容翻译和总结功能。
 
+## 功能展示
+<img width="3809" height="1779" alt="image" src="https://github.com/user-attachments/assets/b0d40e69-3c64-4064-bbb6-db5494de44e7" />
+<img width="3836" height="1706" alt="image" src="https://github.com/user-attachments/assets/93aa30e5-7e5a-44de-baea-02211615da1e" />
+
+
 ## ✨ 功能特性
 
 - **🔄 智能翻译**：选中页面文本，一键翻译成多种语言
